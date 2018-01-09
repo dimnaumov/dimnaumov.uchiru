@@ -1,0 +1,50 @@
+.axis-image {
+    width: 100%;
+}
+
+.axis-items-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+    .axis-item {
+        align-self: flex-end;
+    }
+
+    svg {
+        display: inline-block;
+        vertical-align: bottom;
+        overflow: visible;
+    }
+}
+
+.axis-item-result,
+.axis-input {
+    font-size: @font-size-large;
+}
+
+.axis-input {
+    max-width: 30px;
+}
+
+.svg-arrow-base {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: drawArrow 1.5s linear alternate forwards;
+}
+
+.svg-arrow {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: drawArrow 10s linear alternate forwards;    
+    animation-delay: 0.5s;
+}
+
+@keyframes drawArrow {
+    from {
+        stroke-dashoffset: 1000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}

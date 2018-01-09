@@ -1,0 +1,22 @@
+{
+  "name": "uchi_test_work",
+  "description": "Test Work by Naumov D for Uchi.ru",
+  "main": "gulpfile.js",
+  "authors": [
+    "Naumov D.V."
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "jquery-mask-plugin": "^1.14.13"
+  }
+}

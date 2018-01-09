@@ -1,0 +1,22 @@
+{
+  "name": "uchi_test_work",
+  "version": "1.0.0",
+  "description": "Test Work by Naumov D for Uchi.ru",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naumov D.V.",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.21.0",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-less": "^3.3.2",
+    "gulp-pug": "^3.3.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
